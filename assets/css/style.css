@@ -494,6 +494,8 @@ p {
   color: #fff;
 }
 
+
+
 .hero-content p {
   font-size: 13px;
   letter-spacing: 3px;
@@ -613,15 +615,17 @@ p {
 #about .about-descr .separator {
   max-width: 80%;
   margin-bottom: 0;
-  text-align: left;
+  text-align: center;
   font-size: 18px;
   line-height: 1.5;
 }
 #about .about-descr .separator a{
   font-weight: 600;
+  color: #FFF ;
+  background-color: #b8a07e;
 }
 #about .about-descr .separator a:hover{
-  color: #b8a07e;
+  background-color: #2a4073;
 }
 
 /*--------------------------------------------------------------
@@ -631,6 +635,10 @@ p {
   background: #f7f7f7;
   position: relative;
   padding-bottom: 80px;
+}
+
+.services-block{
+  margin-bottom: 30px;
 }
 
 .services-block span {
@@ -657,22 +665,6 @@ p {
   line-height: 37px;
 }
 
-.services-slider .swiper-pagination {
-  margin-top: 30px;
-  position: relative;
-}
-
-.services-slider .swiper-pagination .swiper-pagination-bullet {
-  width: 12px;
-  height: 12px;
-  background-color: #fff;
-  opacity: 1;
-  border: 1px solid #b8a07e;
-}
-
-.services-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #b8a07e;
-}
 
 /*--------------------------------------------------------------
 # Portfolio
@@ -778,7 +770,10 @@ p {
   top: 20px;
 }
 #portfolio .portfolio-item:hover .portfolio-info p .emp {
-  color: #6f4b3e ;
+  color: #2a4073;
+  text-decoration: underline;
+  text-decoration-color: #b8a07e;
+  text-decoration-thickness: 3px;
 }
 
 /*--------------------------------------------------------------
