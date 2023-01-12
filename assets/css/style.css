@@ -603,9 +603,9 @@ p {
 }
 
 #about .about-descr .p-heading {
-  font-size: 20px;
+  font-size: 23px;
   line-height: 1.5;
-  text-align: left;
+  text-align: center;
 }
 
 .p-heading{
