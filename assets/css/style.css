@@ -629,7 +629,7 @@ p {
 }
 
 
-.download_link:hover{
+.download_link a:hover{
   background-color: #2a4073;
 }
 /*--------------------------------------------------------------
